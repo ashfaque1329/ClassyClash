@@ -25,7 +25,7 @@ endif()
 
 # Our Project
 
-add_executable(ClassyClash main.cpp)
+add_executable(ClassyClash main.cpp BaseCharacter.cpp Character.cpp Enemy.cpp Prop.cpp)
 #set(raylib_VERBOSE 1)
 target_link_libraries(ClassyClash raylib)
 
